@@ -7,20 +7,18 @@ a:link {
 	font-size: 100%;
 	text-decoration:none;
 	display:inline-block;
-
 }
 /* visited link */
 a:visited {
-	color:gray;
+	color:white;
 }
 /* mouse over link */
 a:hover {
 	color:charcoal;
 	font-weight:bold;
-	font-stretch:150%;
 }
 body {background-repeat: no-repeat;
-background-size: 113% 200%;font-size: x-large;
+background-size: 113% 200%;font-size: large;
 text-align:top;
 background-color:black;/*#B6EDFF;*/
 }
@@ -54,7 +52,8 @@ position:fixed;top:0;
 background-color:black;
 width:100%;
 margin-top:0%}
-footer {color:white;
+footer 
+{color:white;
 font-size:.75em;
 background-color:black;
 width:100%;
@@ -86,7 +85,7 @@ img {
 .postop2
 	{position:fixed;
 	top:350px;}
-.navhoriz{display:inline-block;padding:0% 2% 0%;width;12%}
+.navhoriz{display:inline-block;padding:0% 2% 0%;}
 .leftalign {text-align:left;}
 .rightalign {text-align:right;}
 .leftbutton {position:relative; left:40%;}
@@ -97,21 +96,23 @@ img {
 .sliderMuZep {height:250px;width:60%;margin-left:auto;margin-right:auto;}
 .video img{width:20% margin-left:auto;margin-right:auto;}
 /* settings for my 12 grid */
-.col-1 {vertical-align: top; width: 8.33%;display:inline-block;background-color:lightgray;padding:1%;}/*removed the padding of 0.5% for all of these*/
-.col-2 {height:106px; vertical-align: top; width: 16.66%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-3 {height:260px; vertical-align: top; width: 24%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-4 {height:300px; vertical-align: top; width: 32.15%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-5 {height:260px; vertical-align: top; width: 42.33%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-7 {vertical-align: top; width: 58.33%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-8r1 {vertical-align: top; width: 70%;display:inline-block;background-color:black;padding:1%;}
-.col-8 {vertical-align: top; width: 70%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-9 {vertical-align: top; width: 75%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-10 {vertical-align: top; width: 83.33%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-11 {vertical-align: top; width: 91.66%;display:inline-block;background-color:lightgray;padding:1%;}
-.row {vertical-align: top; width: 100%;display:inline-block;background-color:auto;padding:1%;}
-.navrow {height: 60px; vertical-align: top; width: 100%;display:inline-block;background-color:black;padding:1%;}
+.col-1 {vertical-align: top; width: 8.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}/*removed the padding of 0.5% for all of these*/
+.col-2 {height:106px; vertical-align: top; width: 16.66%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-2ch {height:106px; vertical-align: top; width: 16.66%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-3 {height:260px; vertical-align: top; width: 24%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-4 {height:300px; vertical-align: top; width: 32.15%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-5 {height:260px; vertical-align: top; width: 42.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-7 {vertical-align: top; width: 58.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-8r1 {vertical-align: top; width: 70%;display:inline-block;background-color:black;padding:1%;overflow:hidden;}
+.col-8 {vertical-align: top; width: 70%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-9 {vertical-align: top; width: 75%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-10 {vertical-align: top; width: 83.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-11 {vertical-align: top; width: 91.66%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.row {vertical-align: top; width: 100%;display:inline-block;background-color:auto;padding:1%;overflow:hidden;}
+.rowDL {height:5%; vertical-align: top; width: 100%;display:inline-block;background-color:auto;padding:1%;overflow:hidden;}
+.navrow {height: 60px; vertical-align: top; width: 100%;display:inline-block;background-color:black;padding:1%;overflow:hidden;}
 .onethirdpage {vertical-align: top; width: 33.33%;}
 .col-3h {vertical-align: top; float: bottom; height: 320px; width: 24%;display:inline-block;background-color:lightgray;padding:1%;}
 .col-5h {vertical-align: top; float: bottom; height: 320px; width: 40.33%;display:inline-block;background-color:lightgray;padding:1%;}
@@ -120,14 +121,32 @@ img {
 .hobhead {font-family: tahoma;
 		font-size:150%;
 		font-weight:bold;
-		font-style:italics;
 		text-align:left;
+		}
+.conhead {font-family: tahoma;
+		font-size:132%;
+		font-weight:bold;
+		text-align:right;
 		}
 .hobbies{font-size:80%;color:black;
 		padding-bottom:2%}
+.contact{color:black;
+		padding-top:0%;
+		padding-bottom:2%}
+.tab{padding-right:20%;
+text-align:right;}
+.tab2{padding-right:15%;
+text-align:right;}
+.tab3{padding-right:17%;
+text-align:right;}
 .divnav {width: 40%;background-color:black}
 .righttechback {position:fixed;top:-2%; left:80%;}
 .imagetechback img{width:190%}
+.form {vertical-align:top;
+		text-align:center;
+		font-size:75%;
+}
+.table{width:100%;}
 /* id */
 
 #under{text-decoration:underline;}
@@ -163,11 +182,11 @@ img {
 	body{background:url(Mother-Board2.jpg);background-size:100% 100%;}
 	header{width: 100%;}
 	footer{width:100%}
-	h1{width: 100%;
-	}
+	h1{width: 100%;font-size:auto;}
 	nav{width:100%;}
 	.col-1 {width: 45%;display:inline-block;background-color:lightgray;}/*removed the padding of 0.5% for all of these*/
 	.col-2 {width: 20%;display:inline-block;background-color:lightgray;margin:.5%;}
+	.col-2ch {width: 20%;display:inline-block;background-color:lightgray;margin:.5%;}
 	.col-3 {width: 34%;display:inline-block;background-color:lightgray;}
 	.col-4 {width: 45%;display:inline-block;background-color:lightgray;}
 	.col-5 {width: 60%;display:inline-block;background-color:lightgray;}
@@ -182,6 +201,9 @@ img {
 	#righttechback{visibility:hidden;}
 }
 @media only screen and (max-width: 479px){
+	a:link {
+	font-size: 63%;
+}
 	body{font-size:1.3em;background:url(Mother-Board2.jpg);background-size:100% 50%;}
 	header{width: 100%;}
 	footer{width: 100%;}
@@ -189,6 +211,7 @@ img {
 	h1{width: 100%;font-size:large;height:35px;}
 	.col-1 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}/*removed the padding of 0.5% for all of these*/
 	.col-2 {height:45px;width: 20%; margin-left:auto;margin-right:auto;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-2ch {height:45px;width: 99%; margin-left:auto;margin-right:auto;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}	
 	.col-3 {height: auto; width: 97%;display:inline-block;background-color:lightgray; margin-bottom:1.5%;}
 	.col-4 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
 	.col-5 {height:200px; width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
@@ -200,6 +223,8 @@ img {
 	.col-11 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
 	.row {width: 99%;display:inline-block;background-color:auto;margin-bottom:1.5%;}
 	.imagesize{width:65px; height:45px; margin-left:auto;margin-right:auto;}
+	.conhead {font-size:auto;
+	text-align:left;}
 	#righttechback{visibility:hidden;}
 	#expand {height:10px;}
 	

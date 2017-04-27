@@ -24,13 +24,10 @@ background-repeat: no-repeat;-->
 		<img src="Mother-Board2.jpg" alt="TechBack" width=190%>
 	</div>
 <div><!--This is my page container opening div-->
-<header class="navyhead">
-	<h1>Conor Langan Contact Details</h1>
-</header>
 		<div class="row"><!--This is my row1 opening div-->
+			<header><h1>Conor Langan Contact & Feedback</h1></header>	
 		</div><!--This is my row1 closing div-->
-		<div class="row"><!--This is my row2 opening div-->
-			<div class="col-8"><!--making 2/3 width row-->
+		<div class="navrow"><!--This is my row2 opening div-->
 				<nav class="navrow">
 				<ul class="nobull">
 					<!--<li class="navhoriz">Navigation</li>-->
@@ -40,46 +37,49 @@ background-repeat: no-repeat;-->
 					<li class="navhoriz"><a href="hobbies.html">Hobbies<!--<img src="Sports.jpg" alt="Hobbies" width=25% height=25%>--></a></li>
 					<li class="navhoriz"><a href="contact.html">Contact<!--<img src="Contact.jpg" alt="Contact" width=15% height=15%>--></a></li>
 				</ul>
-				</nav>
-			</div><!--closing column 2-->		
+				</nav>	
 		</div><!--This is my row2 closing div-->	
-		<div class="row"><!--This is my row3 opening div-->
+		<div class="rowDL"><!--This is my row3 opening div-->
 			<section>
-				<a href="Conor Langan CV - April'17.docx" download ><img src ="education.jpg"><!--Download tested and works fine, downloads to bottom of screen then click and it opens-->
-			</section><!--closing div for job image-->
+				<a href="Conor Langan CV - April'17.docx" download><img src="myCV.jpg"></a><!--Download tested and works fine, downloads to bottom of screen then click and it opens-->			</section><!--closing div for job image-->
+			</section>
 		</div><!--This is my row3 closing div-->
 		<div class="row"><!--This is my row4 opening div-->
-				<div class="col-2"><!--opening div for job image-->
-					<section>
-						<a href="Conor Langan CV - April'17.docx" download><!--Download tested and works fine, downloads to bottom of screen then click and it opens-->
+				<div class="col-2ch"><!--opening div for job image-->
+					<section class="conhead">
+					My Contact Details
 					</section><!--closing div for job image-->
 				</div>
 				<div class="col-6"><!--opening div for work exp 2-->
-		
+					<ul>
+						<li class="contact nobull"><b class="tab">Email:</b>conorl67@gmail.com</li>
+						<li class="contact nobull"><b class="tab">Phone:</b>+353 (0)87 235 2366 </li>
+						<li class="contact nobull"><b class="tab2">LinkedIn:</b><a href="https://www.linkedin.com/in/conor-langan/">www.linkedin.com/in/conor-langan/</a></li>
+						<li class="contact nobull"><b class="tab3">Website:</b><a href="https://conorl67.github.io">https://conorl67.github.io</a></li>
+					</ul>
 				</div>
 		</div><!--This is my row4 closing div-->
 		<div class="row"><!--This is my row5 opening div-->
-				<div class="col-2"><!--opening div for job image-->
-					<section>
-						<img src="Open University.jpg" class="imagesize">
+				<div class="col-2ch"><!--opening div for job image-->
+					<section class="conhead">
+					Let me Contact You
 					</section><!--closing div for job image-->
 				</div>
-				<div class="col-6"><!--opening div for work exp 2-->
-				<label for="toggle">2001 <br>Business Management (BA Hons)<br>Open University............more</label>			
-					<input id="toggle" type="checkbox" >
-					<div id="expand">
-						<p>
-							<ul>
-							<li>Managed Team of 120 staff with 12 direct reports.</li>
-							<li>Formulated & managed UK restructure following closure of major UK customer facility.</li>
-							<li>Developed European Safety Statement & Safety Manuals for Ireland & UK.</li>
-							<li>Coached and developed engineering and management high potential staff.</li>
-							</ul>
-						</p>
-					</div>
-				</div>		
+			<div class="col-6"><!--opening div for work exp 2-->
+				<table class="table">
+					<form class="table">
+						<tr class="form"><td>Name:</td><td><input type="text" name="name" id="name"/></td></tr>
+						<tr class="form"><td>Company</td><td><input type="text" name="Company" id="company"/></td></tr>
+						<tr class="form"><td><input type="radio" name="Agency" value="Agency"/>Click if Agency</td><td></td></tr>
+						<tr class="form"><td>Phone:</td><td><input type="numerical" name="phone" id="phone"/></td></tr>
+						<tr class="form"><td>Email:</td><td><input type="text" name="email" id="email"/></td></tr>
+						<tr class="form"><td>Enter preferred contact date:</td><td><input type="date" name="bday" min="now()"></td></tr><!--user input must be date in future-->
+						<tr class="form"><td><input type = "button"  class="button1" value="SUBMIT"/></td><td><input type = "button"  class="button2" value="RESET"/></td></tr>
+					</form><!--closing form-->
+				</table><!--closing table containing form-->			
+			</div>	
 		</div><!--This is my row5 closing div-->
-
+		<br><br>
 </div><!--This is my page container closing div-->	
 <footer class="navhoriz"><!--opening div for footer-->
 <div class="navhoriz divnav"><a href="conorl67@gmail.com">conorl67@gmail.com.com</a></div><div class="divnav navhoriz rightalign"> +353 (0)87 2352366</div>
