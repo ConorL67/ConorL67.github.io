@@ -1,0 +1,206 @@
+/* unvisited link these are just notes and not active in program */
+a:link {
+	background-color:none;
+	color:white;
+	padding: 0% 0%;
+	text-align:center;
+	font-size: 100%;
+	text-decoration:none;
+	display:inline-block;
+
+}
+/* visited link */
+a:visited {
+	color:gray;
+}
+/* mouse over link */
+a:hover {
+	color:charcoal;
+	font-weight:bold;
+	font-stretch:150%;
+}
+body {background-repeat: no-repeat;
+background-size: 113% 200%;font-size: x-large;
+text-align:top;
+background-color:black;/*#B6EDFF;*/
+}
+h1 {color:white;
+padding:1% 0% 1% 0%;
+text-decoration:none;
+text-align:center;
+font-family:tahoma;
+font-size:auto;
+position:fixed;top:0;
+background-color:black;
+width:100%;
+margin-top:0%
+}
+
+nav{text-align:justify;
+}
+wrapper{margin-left:auto; 
+		margin-right:auto;
+		width:50%;
+}
+section{text-align:center;
+}
+header{color:white;
+padding:1% 0% 1% 0%;
+text-decoration:none;
+text-align:center;
+font-family:tahoma;
+font-size:auto;
+position:fixed;top:0;
+background-color:black;
+width:100%;
+margin-top:0%}
+footer {color:white;
+font-size:.75em;
+background-color:black;
+width:100%;
+display:inline-block;
+position:fixed; bottom:0px;
+padding: 0% 0% 0% 0%
+}
+dt{text-decoration:underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}/*this is what's causing me a problem with my background image*/
+
+/* classes */
+.pinksquarebull{list-style-type:square;color:pink;}
+.nobull{list-style-type:none;padding:0px 0px}
+.bold{font-weight:bold;}
+.redhead{background-color:red;}
+.blackhead{background-color:black;padding:1%;}
+.navyhead{background-color:navy;}
+.centre{margin-left:auto; margin-right:auto; width:50%;}
+.pinkrightfloat{float:right;background-color:pink;}
+.imagesize{width:170px; height:110px; margin-left:auto;margin-right:auto;}
+.postop
+	{position:fixed;
+	top:50px;
+	left:5px;}
+.postop2
+	{position:fixed;
+	top:350px;}
+.navhoriz{display:inline-block;padding:0% 2% 0%;width;12%}
+.leftalign {text-align:left;}
+.rightalign {text-align:right;}
+.leftbutton {position:relative; left:40%;}
+.rightbutton {position:relative; left:40%;}
+.sliderFam {height:250px;width:380px;margin-left:auto;margin-right:auto;}
+.sliderSp {height:250px;width:100%;margin-left:auto;margin-right:auto;}
+.sliderMu {position:relative; top:-50px;width:100%;margin-left:auto;margin-right:auto;}
+.sliderMuZep {height:250px;width:60%;margin-left:auto;margin-right:auto;}
+.video img{width:20% margin-left:auto;margin-right:auto;}
+/* settings for my 12 grid */
+.col-1 {vertical-align: top; width: 8.33%;display:inline-block;background-color:lightgray;padding:1%;}/*removed the padding of 0.5% for all of these*/
+.col-2 {height:106px; vertical-align: top; width: 16.66%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-3 {height:260px; vertical-align: top; width: 24%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-4 {height:300px; vertical-align: top; width: 32.15%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-5 {height:260px; vertical-align: top; width: 42.33%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-7 {vertical-align: top; width: 58.33%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-8r1 {vertical-align: top; width: 70%;display:inline-block;background-color:black;padding:1%;}
+.col-8 {vertical-align: top; width: 70%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-9 {vertical-align: top; width: 75%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-10 {vertical-align: top; width: 83.33%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-11 {vertical-align: top; width: 91.66%;display:inline-block;background-color:lightgray;padding:1%;}
+.row {vertical-align: top; width: 100%;display:inline-block;background-color:auto;padding:1%;}
+.navrow {height: 60px; vertical-align: top; width: 100%;display:inline-block;background-color:black;padding:1%;}
+.onethirdpage {vertical-align: top; width: 33.33%;}
+.col-3h {vertical-align: top; float: bottom; height: 320px; width: 24%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-5h {vertical-align: top; float: bottom; height: 320px; width: 40.33%;display:inline-block;background-color:lightgray;padding:1%;}
+.heightasdiv320{height:320px;}
+.divtop {vertical-align: top;}
+.hobhead {font-family: tahoma;
+		font-size:150%;
+		font-weight:bold;
+		font-style:italics;
+		text-align:left;
+		}
+.hobbies{font-size:80%;color:black;
+		padding-bottom:2%}
+.divnav {width: 40%;background-color:black}
+.righttechback {position:fixed;top:-2%; left:80%;}
+.imagetechback img{width:190%}
+/* id */
+
+#under{text-decoration:underline;}
+#blueback{background-color:blue;}
+#blackgray{background-color:black;color:lightgray;}
+#blueback2{background-color:turquoise;}
+#pink{color:pink;}
+#orangeunder{color:orange;text-decoration:underline}
+#iframepos{position:relative;left:400px;}
+#floatright { margin: 10px;float: right; }
+#floatleft { margin: 10px;float: left; }
+#floatbottom { margin: 0px;float: bottom; }
+#righttechback img{position:fixed;top:-2%; left:70%;background-color:navy;width:40%}
+#imagetechback img{width:190%}
+#heightasdiv{height:20px;}
+#expand {
+  height: 25px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: black;
+}
+#toggle:checked ~ #expand {
+  height: auto;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}
+/*#image img {height: auto;vertical-align:center; line-height:auto; }*/
+
+
+
+@media only screen and (min-width:480px) and (max-width: 960px){
+	body{background:url(Mother-Board2.jpg);background-size:100% 100%;}
+	header{width: 100%;}
+	footer{width:100%}
+	h1{width: 100%;
+	}
+	nav{width:100%;}
+	.col-1 {width: 45%;display:inline-block;background-color:lightgray;}/*removed the padding of 0.5% for all of these*/
+	.col-2 {width: 20%;display:inline-block;background-color:lightgray;margin:.5%;}
+	.col-3 {width: 34%;display:inline-block;background-color:lightgray;}
+	.col-4 {width: 45%;display:inline-block;background-color:lightgray;}
+	.col-5 {width: 60%;display:inline-block;background-color:lightgray;}
+	.col-6 {width: 73%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.col-7 {width: 45%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.col-8 {width: 97%;display:inline-block;background-color:lightgray;}
+	.col-9 {width: 50%;display:inline-block;background-color:lightgray;margin:0.05%;padding:1% 2.4% 1% 1%;}
+	.col-10 {width: 50%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.col-11 {width: 50%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.row {width: 100%; display:inline-block;background-color:auto;margin:0.05%;}
+	.imagesize{width:170px; height:100px; margin-left:auto;margin-right:auto;}
+	#righttechback{visibility:hidden;}
+}
+@media only screen and (max-width: 479px){
+	body{font-size:1.3em;background:url(Mother-Board2.jpg);background-size:100% 50%;}
+	header{width: 100%;}
+	footer{width: 100%;}
+	nav {width:100%;}
+	h1{width: 100%;font-size:large;height:35px;}
+	.col-1 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}/*removed the padding of 0.5% for all of these*/
+	.col-2 {height:45px;width: 20%; margin-left:auto;margin-right:auto;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-3 {height: auto; width: 97%;display:inline-block;background-color:lightgray; margin-bottom:1.5%;}
+	.col-4 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-5 {height:200px; width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-6 {width: 99%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-7 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-8 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-9 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-10 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-11 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.row {width: 99%;display:inline-block;background-color:auto;margin-bottom:1.5%;}
+	.imagesize{width:65px; height:45px; margin-left:auto;margin-right:auto;}
+	#righttechback{visibility:hidden;}
+	#expand {height:10px;}
+	
+}
