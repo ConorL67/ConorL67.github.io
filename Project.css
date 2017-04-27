@@ -93,7 +93,8 @@ img {
 .rightbutton {position:relative; left:40%;}
 .sliderFam {height:250px;width:380px;margin-left:auto;margin-right:auto;}
 .sliderSp {height:250px;width:100%;margin-left:auto;margin-right:auto;}
-.sliderMu {height:250px;width:380px;margin-left:auto;margin-right:auto;}
+.sliderMu {position:relative; top:-50px;width:100%;margin-left:auto;margin-right:auto;}
+.sliderMuZep {height:250px;width:60%;margin-left:auto;margin-right:auto;}
 .video img{width:20% margin-left:auto;margin-right:auto;}
 /* settings for my 12 grid */
 .col-1 {vertical-align: top; width: 8.33%;display:inline-block;background-color:lightgray;padding:1%;}/*removed the padding of 0.5% for all of these*/
@@ -103,17 +104,17 @@ img {
 .col-5 {height:260px; vertical-align: top; width: 42.33%;display:inline-block;background-color:lightgray;padding:1%;}
 .col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;}
 .col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-7 {vertical-align: top; width: 58.33%;display:inline-block;background-color:lightblue;padding:1%;}
+.col-7 {vertical-align: top; width: 58.33%;display:inline-block;background-color:lightgray;padding:1%;}
 .col-8r1 {vertical-align: top; width: 70%;display:inline-block;background-color:black;padding:1%;}
 .col-8 {vertical-align: top; width: 70%;display:inline-block;background-color:lightgray;padding:1%;}
-.col-9 {vertical-align: top; width: 75%;display:inline-block;background-color:lightblue;padding:1%;}
-.col-10 {vertical-align: top; width: 83.33%;display:inline-block;background-color:lightblue;padding:1%;}
-.col-11 {vertical-align: top; width: 91.66%;display:inline-block;background-color:lightblue;padding:1%;}
+.col-9 {vertical-align: top; width: 75%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-10 {vertical-align: top; width: 83.33%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-11 {vertical-align: top; width: 91.66%;display:inline-block;background-color:lightgray;padding:1%;}
 .row {vertical-align: top; width: 100%;display:inline-block;background-color:auto;padding:1%;}
 .navrow {height: 60px; vertical-align: top; width: 100%;display:inline-block;background-color:black;padding:1%;}
 .onethirdpage {vertical-align: top; width: 33.33%;}
-.col-3h {vertical-align: top; float: bottom; height: 320px; width: 24%;display:inline-block;background-color:lightblue;padding:1%;}
-.col-5h {vertical-align: top; float: bottom; height: 320px; width: 40.33%;display:inline-block;background-color:lightblue;padding:1%;}
+.col-3h {vertical-align: top; float: bottom; height: 320px; width: 24%;display:inline-block;background-color:lightgray;padding:1%;}
+.col-5h {vertical-align: top; float: bottom; height: 320px; width: 40.33%;display:inline-block;background-color:lightgray;padding:1%;}
 .heightasdiv320{height:320px;}
 .divtop {vertical-align: top;}
 .hobhead {font-family: tahoma;
@@ -159,44 +160,44 @@ img {
 
 
 @media only screen and (min-width:480px) and (max-width: 960px){
-	body{background:url(Mother-Board.jpg);background-size:100% 100%;}
+	body{background:url(Mother-Board2.jpg);background-size:100% 100%;}
 	header{width: 100%;}
 	footer{width:100%}
 	h1{width: 100%;
 	}
 	nav{width:100%;}
-	.col-1 {width: 45%;display:inline-block;background-color:red;}/*removed the padding of 0.5% for all of these*/
-	.col-2 {width: 20%;display:inline-block;background-color:red;margin:.5%;}
-	.col-3 {width: 34%;display:inline-block;background-color:red;}
-	.col-4 {width: 45%;display:inline-block;background-color:red;}
-	.col-5 {width: 60%;display:inline-block;background-color:red;}
-	.col-6 {width: 73%;display:inline-block;background-color:red;margin:0.05%;}
-	.col-7 {width: 45%;display:inline-block;background-color:red;margin:0.05%;}
-	.col-8 {width: 97%;display:inline-block;background-color:red;}
-	.col-9 {width: 50%;display:inline-block;background-color:red;margin:0.05%;padding:1% 2.4% 1% 1%;}
-	.col-10 {width: 50%;display:inline-block;background-color:red;margin:0.05%;}
-	.col-11 {width: 50%;display:inline-block;background-color:red;margin:0.05%;}
+	.col-1 {width: 45%;display:inline-block;background-color:lightgray;}/*removed the padding of 0.5% for all of these*/
+	.col-2 {width: 20%;display:inline-block;background-color:lightgray;margin:.5%;}
+	.col-3 {width: 34%;display:inline-block;background-color:lightgray;}
+	.col-4 {width: 45%;display:inline-block;background-color:lightgray;}
+	.col-5 {width: 60%;display:inline-block;background-color:lightgray;}
+	.col-6 {width: 73%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.col-7 {width: 45%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.col-8 {width: 97%;display:inline-block;background-color:lightgray;}
+	.col-9 {width: 50%;display:inline-block;background-color:lightgray;margin:0.05%;padding:1% 2.4% 1% 1%;}
+	.col-10 {width: 50%;display:inline-block;background-color:lightgray;margin:0.05%;}
+	.col-11 {width: 50%;display:inline-block;background-color:lightgray;margin:0.05%;}
 	.row {width: 100%; display:inline-block;background-color:auto;margin:0.05%;}
 	.imagesize{width:170px; height:100px; margin-left:auto;margin-right:auto;}
 	#righttechback{visibility:hidden;}
 }
 @media only screen and (max-width: 479px){
-	body{font-size:1.3em;background:url(Mother-Board.jpg);background-size:100% 50%;}
+	body{font-size:1.3em;background:url(Mother-Board2.jpg);background-size:100% 50%;}
 	header{width: 100%;}
 	footer{width: 100%;}
 	nav {width:100%;}
 	h1{width: 100%;font-size:large;height:35px;}
-	.col-1 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}/*removed the padding of 0.5% for all of these*/
-	.col-2 {height:45px;width: 20%; margin-left:auto;margin-right:auto;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-3 {height: auto; width: 97%;display:inline-block;background-color:lightgreen; margin-bottom:1.5%;}
-	.col-4 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-5 {height:200px; width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-6 {width: 99%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-7 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-8 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-9 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-10 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
-	.col-11 {width: 97%;display:inline-block;background-color:lightgreen;margin-bottom:1.5%;}
+	.col-1 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}/*removed the padding of 0.5% for all of these*/
+	.col-2 {height:45px;width: 20%; margin-left:auto;margin-right:auto;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-3 {height: auto; width: 97%;display:inline-block;background-color:lightgray; margin-bottom:1.5%;}
+	.col-4 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-5 {height:200px; width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-6 {width: 99%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-7 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-8 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-9 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-10 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
+	.col-11 {width: 97%;display:inline-block;background-color:lightgray;margin-bottom:1.5%;}
 	.row {width: 99%;display:inline-block;background-color:auto;margin-bottom:1.5%;}
 	.imagesize{width:65px; height:45px; margin-left:auto;margin-right:auto;}
 	#righttechback{visibility:hidden;}
