@@ -2,14 +2,6 @@
 <html>
 <head>
 <style>
-body{background-color:navy;
-background-repeat: no-repeat;
-<!--background:url(Mother-Board.jpg);
-background-position:right;
-background-size: width=100% height=100%;
-background-repeat: no-repeat;-->
-}
-
 </style>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +10,7 @@ background-repeat: no-repeat;-->
 <title>Conor Langan Contact Details</title>
 <link rel="stylesheet" type="text/css" href="mystyles.css">
 </head>
-<Body>
+<body>
 <div><!--This is my page container opening div-->
 	<div id="righttechback">
 		<img src="Mother-Board2.jpg" alt="TechBack" width=190%>
@@ -30,12 +22,11 @@ background-repeat: no-repeat;-->
 		<div class="row"><!--This is my row2 opening div-->
 				<nav class="navrow">
 				<ul class="nobull">
-					<!--<li class="navhoriz">Navigation</li>-->
-					<li class="navhoriz"><a href="index.html">Home<!--<img src="House.jpg" alt="Home" width=25% height=25%></a></li><!--I have used a list for nav bar and used the "display:inline" atribute on each <li> to make this horizontal-->
-					<li class="navhoriz"><a href="workexp.html">Work Exp<!--<img src="Work.jpg" alt="WorkExp" width=25% height=25%>--></a></li>
-					<li class="navhoriz"><a href="education.html">Education<!--<img src="Education.jpg" alt="Education" width=25% height=25%>--></a></li>
-					<li class="navhoriz"><a href="hobbies.html">Hobbies<!--<img src="Sports.jpg" alt="Hobbies" width=25% height=25%>--></a></li>
-					<li class="navhoriz"><a href="contact.html">Contact<!--<img src="Contact.jpg" alt="Contact" width=15% height=15%>--></a></li>
+					<li class="navhoriz"><a href="index.html">Home</a></li>
+					<li class="navhoriz"><a href="workexp.html">Work Exp</a></li>
+					<li class="navhoriz"><a href="education.html">Education</a></li>
+					<li class="navhoriz"><a href="hobbies.html">Hobbies</a></li>
+					<li class="navhoriz"><a href="contact.html">Contact</a></li>
 				</ul>
 				</nav>	
 		</div><!--This is my row2 closing div-->	
@@ -74,8 +65,7 @@ background-repeat: no-repeat;-->
 						<tr class="formE"><td>Email:</td><td><input type="text" name="email" id="email"/></td></tr>
 						<tr class="form"><td>Enter preferred contact date:</td><td><input type="date" name="date" min="now()"></td></tr><!--user input must be date in future-->
 						<tr class="form"><td><input type="submit" value="SUBMIT" onclick="return javaTest();"></td><td><input type ="reset"value="RESET"></td></tr>
-
-						</form><!--closing form-->
+					</form><!--closing form-->
 				</table><!--closing table containing form-->			
 			</div>	
 		</div><!--This is my row5 closing div-->
@@ -83,10 +73,10 @@ background-repeat: no-repeat;-->
 		<br><br>
 </div><!--This is my page container closing div-->	
 <footer class="navhoriz"><!--opening div for footer-->
-<div class="navhoriz divnav"><a href="conorl67@gmail.com">conorl67@gmail.com.com</a></div><div class="divnav navhoriz rightalign"> +353 (0)87 2352366</div>
+<div class="navhoriz divnav"><a href="conorl67@gmail.com">conorl67@gmail.com</a></div><div class="divnav navhoriz rightalign"> +353 (0)87 2352366</div>
 </footer><!--closing div for footer-->	
 
-</Body>
+</body>
 <script><!--This is my java script for checking form input-->
 function javaTest() {
    var v = document.forms["projForm"]["name"].value;
@@ -97,3 +87,4 @@ function javaTest() {
 	alert("****************THANK YOU****************\nYou have just submitted the following details\n\n"+v+"\n"+w+"\n"+x+"\n"+y+"\n\nAnd your preferred contact date is "+z);	
 }
 </script>
+</html>
