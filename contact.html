@@ -14,20 +14,20 @@ background-repeat: no-repeat;-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Informaiton on Conor Langan - Professional, Educational & Personal">
-<meta http-equiv="refresh" content="30">
+<meta http-equiv="refresh" content="300">
 <title>Conor Langan Contact Details</title>
-<link rel="stylesheet" type="text/css" href="Project.css">
+<link rel="stylesheet" type="text/css" href="mystyles.css">
 </head>
 <Body>
-
+<div><!--This is my page container opening div-->
 	<div id="righttechback">
 		<img src="Mother-Board2.jpg" alt="TechBack" width=190%>
 	</div>
-<div><!--This is my page container opening div-->
+
 		<div class="row"><!--This is my row1 opening div-->
 			<header><h1>Conor Langan Contact & Feedback</h1></header>	
 		</div><!--This is my row1 closing div-->
-		<div class="navrow"><!--This is my row2 opening div-->
+		<div class="row"><!--This is my row2 opening div-->
 				<nav class="navrow">
 				<ul class="nobull">
 					<!--<li class="navhoriz">Navigation</li>-->
@@ -62,28 +62,38 @@ background-repeat: no-repeat;-->
 		<div class="row"><!--This is my row5 opening div-->
 				<div class="col-2ch"><!--opening div for job image-->
 					<section class="conhead">
-					Let me Contact You
+					Let Me Contact You
 					</section><!--closing div for job image-->
 				</div>
 			<div class="col-6"><!--opening div for work exp 2-->
 				<table class="table">
-					<form class="table">
-						<tr class="form"><td>Name:</td><td><input type="text" name="name" id="name"/></td></tr>
-						<tr class="form"><td>Company</td><td><input type="text" name="Company" id="company"/></td></tr>
-						<tr class="form"><td><input type="radio" name="Agency" value="Agency"/>Click if Agency</td><td></td></tr>
+					<form class="table" name="projForm">
+						<tr class="form"><td>Name:</td><td><input type="text" name="name"></td></tr>
+						<tr class="form"><td>Company</td><td><input type="text" name="company"></td></tr>
 						<tr class="form"><td>Phone:</td><td><input type="numerical" name="phone" id="phone"/></td></tr>
-						<tr class="form"><td>Email:</td><td><input type="text" name="email" id="email"/></td></tr>
-						<tr class="form"><td>Enter preferred contact date:</td><td><input type="date" name="bday" min="now()"></td></tr><!--user input must be date in future-->
-						<tr class="form"><td><input type = "button"  class="button1" value="SUBMIT"/></td><td><input type = "button"  class="button2" value="RESET"/></td></tr>
-					</form><!--closing form-->
+						<tr class="formE"><td>Email:</td><td><input type="text" name="email" id="email"/></td></tr>
+						<tr class="form"><td>Enter preferred contact date:</td><td><input type="date" name="date" min="now()"></td></tr><!--user input must be date in future-->
+						<tr class="form"><td><input type="submit" value="SUBMIT" onclick="return javaTest();"></td><td><input type ="reset"value="RESET"></td></tr>
+
+						</form><!--closing form-->
 				</table><!--closing table containing form-->			
 			</div>	
 		</div><!--This is my row5 closing div-->
+								
 		<br><br>
 </div><!--This is my page container closing div-->	
 <footer class="navhoriz"><!--opening div for footer-->
 <div class="navhoriz divnav"><a href="conorl67@gmail.com">conorl67@gmail.com.com</a></div><div class="divnav navhoriz rightalign"> +353 (0)87 2352366</div>
-<!--<p class="navhoriz"><a href="conorl67@gmail.com">conorl67@gmail.com.com</a><div class="navhoriz rightalign">+353 (0)87 2352366<div></p>-->
 </footer><!--closing div for footer-->	
 
 </Body>
+<script><!--This is my java script for checking form input-->
+function javaTest() {
+   var v = document.forms["projForm"]["name"].value;
+   var w = document.forms["projForm"]["company"].value;
+   var x = document.forms["projForm"]["phone"].value;
+   var y = document.forms["projForm"]["email"].value;
+   var z = document.forms["projForm"]["date"].value;   
+	alert("****************THANK YOU****************\nYou have just submitted the following details\n\n"+v+"\n"+w+"\n"+x+"\n"+y+"\n\nAnd your preferred contact date is "+z);	
+}
+</script>
