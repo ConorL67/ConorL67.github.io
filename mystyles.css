@@ -231,9 +231,9 @@ text-align:right;}
 	.conhead {font-size:auto;
 	text-align:left;}
 	.links {font-size:20px;}
-	.tab {padding-right:0%}	
-	.tab2 {padding-right:0%}
-	.tab3 {padding-right:0%}
+	.tab{padding-right:2%}
+	.tab2 {padding-right:5%}
+	.tab3 {padding-right:8%}
 	#righttechback{visibility:hidden;}
 	#expand {height:10px;}
 	
