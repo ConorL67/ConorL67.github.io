@@ -136,13 +136,13 @@ text-align:right;}
 .col-2ch {height:106px; vertical-align: top; width: 16.66%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-3 {height:260px; vertical-align: top; width: 24%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-3pic {height:260px; vertical-align: top; width: 24%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
-.col-4 {height:300px; vertical-align: top; width: 32.15%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-4 {height:380px; vertical-align: top; width: 32.15%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-5 {height:260px; vertical-align: top; width: 42.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
-.col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-6 {font-size:x-large; vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-6 {vertical-align: top; width: 49%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-7 {vertical-align: top; width: 58.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-8r1 {vertical-align: top; width: 70%;display:inline-block;background-color:black;padding:1%;overflow:hidden;}
-.col-8 {vertical-align: top; width: 70%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
+.col-8 {vertical-align: top; width: 68%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-9 {vertical-align: top; width: 75%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-10 {vertical-align: top; width: 83.33%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
 .col-11 {vertical-align: top; width: 91.66%;display:inline-block;background-color:lightgray;padding:1%;overflow:hidden;}
